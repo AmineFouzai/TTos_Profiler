@@ -1,5 +1,5 @@
 # TTos_Profiler
-
+on windows:
 was on conda 4.8.3, open Anaconda Prompt
 ```
 conda update ipykernel
@@ -44,4 +44,8 @@ vs2015_runtime            14.16.27012          hf0eaf9b_2
 wheel                     0.34.2                   py36_0
 wincertstore              0.2              py36h7fe50ca_0
 ```
+on linux/macos:
 
+```
+pip install requirements.txt
+```
