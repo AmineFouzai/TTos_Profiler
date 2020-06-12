@@ -47,5 +47,5 @@ wincertstore              0.2              py36h7fe50ca_0
 on linux/macos:
 
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
