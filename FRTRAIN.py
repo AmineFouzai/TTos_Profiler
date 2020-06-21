@@ -9,7 +9,7 @@ from halo import Halo
 loader=Halo(text='Training Recognizer',color='blue',spinner='dots')
 DATA_SET='data_set'
 Reacognizer=cv2.face.LBPHFaceRecognizer_create() 
-# Reacognizer=cv2.face.EigenFaceRecognizer_create() dosent work
+
 
 ids=0
 user_data=list()
