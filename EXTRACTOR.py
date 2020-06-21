@@ -38,7 +38,7 @@ user=face_recognition.face_encodings(user,user_face_location)
 
 #walk dir to find images
 for image in os.listdir(USER_DIR_To_EXTRACT_FACE_FROM):
-        #laod image
+        #load image
         face_or_faces=face_recognition.load_image_file(f'{USER_DIR_To_EXTRACT_FACE_FROM}/{image}')
         
         #extract face or faces
